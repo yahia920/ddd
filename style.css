@@ -25,18 +25,18 @@ body.night {
 .icons {
     display: flex;
     justify-content: end;
-    padding: 10px;
+    padding: 40px;
 }
 #dark-mode {
     transition: 0.3s ease-in-out;
-    font-size: 10px;
-    padding: 3px;
+    font-size: 40px;
+    padding: 8px;
     cursor: pointer;
     color: var(--main-color-1);
 }
 #globe {
-    font-size: 10px;
-    padding: 3px;
+    font-size: 40px;
+    padding: 8px;
     cursor: pointer;
     color: var(--main-color-1);
 }
