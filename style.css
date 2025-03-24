@@ -1,0 +1,42 @@
+/*Base lines*/
+:root {
+    --main-color-1: #352313; 
+    --main-color-2: #fdcd4b;  
+    --background-color: #F5E6CA;  
+    --card-bg-color: #A67C52;
+}
+::selection {
+    background-color: var(--main-color-1);
+    color: var(--main-color-2);
+}   
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*end of base lines*/
+/*icons design*/ 
+body.night {
+    background: #000;
+    color: var(--main-color-2);
+    transition: 0.3s ease-in-out;
+}
+.icons {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+#dark-mode {
+    transition: 0.3s ease-in-out;
+    font-size: 10px;
+    padding: 3px;
+    cursor: pointer;
+    color: var(--main-color-1);
+}
+#globe {
+    font-size: 10px;
+    padding: 3px;
+    cursor: pointer;
+    color: var(--main-color-1);
+}
